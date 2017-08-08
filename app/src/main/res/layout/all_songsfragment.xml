@@ -1,0 +1,27 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context="com.example.hazem.musicplayer.Features.Fragment.AllSongsFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+    <com.mancj.materialsearchbar.MaterialSearchBar
+        android:id="@+id/song_search_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:mt_maxSuggestionsCount="0"
+        app:mt_hint="Search"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+    <ListView
+        android:id="@+id/song_listview"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/song_search_view"></ListView>
+
+
+
+</RelativeLayout>
